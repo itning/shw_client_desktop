@@ -14,6 +14,6 @@
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/itning/shw_client_desktop.svg)]()
 [![language](https://img.shields.io/badge/language-Electron-orange.svg)]()
 
-## 更改BASE URL
+## 访问前端项目
 
-[https://github.com/itning/shw_client/blob/master/src/api/index.js#L2](https://github.com/itning/shw_client/blob/master/src/api/index.js#L2)
+[github 地址](https://github.com/itning/shw_client)
