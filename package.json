@@ -1,0 +1,37 @@
+{
+  "name": "shw_client_desktop",
+  "version": "1.0.0",
+  "description": "Shw Desktop Version",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "author": "itning",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "electron": "^4.0.7",
+    "electron-builder": "^20.38.5"
+  },
+  "build": {
+    "productName":"shw",
+    "appId": "top.itning.shw",
+    "copyright":"itning",
+    "win": {
+      "target": ["nsis","zip"],
+      "icon": "./favicon.png"
+    },
+    "mac": {
+      "target": ["dmg","zip"],
+      "icon": "./favicon.png"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowElevation": true,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "哈尔滨信息工程学院作业管理系统客户端"
+    }
+  }
+}
