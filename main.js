@@ -37,7 +37,7 @@ function createWindow() {
         }
     });
 
-    mainWindow.loadURL('http://172.16.28.166:9999');
+    mainWindow.loadURL('http://172.16.28.19:9999');
     mainWindow.setTitle("哈尔滨信息工程学院作业管理系统客户端");
     mainWindow.on('closed', function () {
         mainWindow = null
